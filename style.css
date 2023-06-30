@@ -1,0 +1,81 @@
+body {
+  background-color: #efeef2;
+  font-family: Arial, sans-serif;
+}
+
+#quote-container {
+  text-align: center;
+  margin: 50px auto;
+  max-width: 1000px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#quote-text {
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+
+#quote-author {
+  font-size: 24px;
+  font-style: italic;
+}
+
+#button-container {
+  margin-top: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#favorites-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#favorites-container h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#favorites-list {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+#favorites-list li {
+  font-size: 16px;
+  margin-bottom: 5px;
+  /* display: none; */
+}
+
+#clear-favorites-btn {
+  padding: 5px 10px;
+  font-size: 14px;
+  background-color: #ff4b5a;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#clear-favorites-btn:hover {
+  background-color: #e63f4e;
+}
